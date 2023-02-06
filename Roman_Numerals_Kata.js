@@ -1,4 +1,5 @@
 function convert(num) { 
+  // Method one
   // if(num < 1){ return "";}
   // if(num >= 1000){ return "M" +convert(num - 1000);}
   // if(num >= 900){ return "CM" +convert(num - 900);}
@@ -14,7 +15,7 @@ function convert(num) {
   // if(num >= 4){ return "IV" + convert(num - 4);}
   // if(num >= 1){ return "I" + convert(num - 1);}  
 
-
+  // Method two
   let romArr = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
   let numArr = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
   let result = "";
